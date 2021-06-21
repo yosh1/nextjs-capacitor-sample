@@ -8,6 +8,12 @@
 $ yarn add @capacitor/core @capacitor/cli
 ```
 
+optional:
+
+```
+$ yarn add @capacitor/ios
+```
+
 ### build and export
 
 ```
