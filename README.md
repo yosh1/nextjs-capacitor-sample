@@ -1,27 +1,33 @@
 # Next.js with Capacitor
 
-## get started
-
-### add package
+## add package
 
 ```
 $ yarn add @capacitor/core @capacitor/cli
 ```
 
-optional:
-
-```
-$ yarn add @capacitor/ios
-```
-
-### build and export
-
-```
-$ npx next build && npx next export
-```
-
-### build app with capacitor
+## build app with capacitor
 
 ```
 $ npx cap init --web-dir=out   
+```
+
+## add platform
+
+```
+$ yarn add @capacitor/ios @capacitor/android
+```
+
+and
+
+```
+$ npx cap add ios
+$ npx cap add android
+```
+
+## opening & running app
+
+```
+$ npx cap open ios
+$ npx cap open android
 ```
