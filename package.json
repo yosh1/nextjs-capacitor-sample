@@ -11,10 +11,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@capacitor/cli": "3.0.1",
-    "@capacitor/core": "3.0.1",
-    "@capacitor/ios": "3.0.1",
-    "@capacitor/android": "3.0.1",
+    "@capacitor/cli": "3.4.3",
+    "@capacitor/core": "3.4.3",
+    "@capacitor/ios": "3.4.3",
+    "@capacitor/android": "3.4.3",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
